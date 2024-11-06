@@ -1,0 +1,404 @@
+.focus h2 {
+    font-size: 32px; 
+}
+
+.focus p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+.focus img {
+    max-width: 90%; 
+    height: auto; 
+}
+
+.contact_us {
+    box-sizing: border-box;
+    background: url(https://amis.misa.vn/sites/amis/images/pages/amis-accounting/bg_register.svg);
+    background-size: cover;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contact_us .container {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contact-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.col-md-12 {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.image {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+
+.image img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+/* custom button */
+.btn {
+    border-radius: 6px;
+    border-color: transparent;
+    padding: 4px;
+
+}
+
+.btn-buy {
+    color: #0065ff;
+    background-color: #deebff;
+    width: 100%;
+    font-size: 12px;
+}
+
+.btn-buy:hover {
+    background-color: #e6f4ff;
+    color: #0065ff;
+}
+
+.btn-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.btn-active {
+    background-color: #0065ff;
+    color: #fff;
+}
+
+.btn-outline {
+    border: 1px solid #0065ff;
+    background: #fff;
+    color: #0065ff;
+}
+
+.btn-outline:hover {
+    background: #e6f4ff;
+}
+
+/* small button */
+.btn-small {
+    font-size: 10px;
+    padding: 6px 16px;
+    border-radius: 10px;
+    /* background: transparent;s */
+
+}
+
+
+/* package */
+
+
+.grid-row {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #172b4d;
+    margin-top: 2rem;
+
+}
+
+.grid-column {
+    visibility: visible; 
+    opacity: 1;         
+    transform: none;  
+}
+
+.package-product {
+    width: 100%;
+    gap: 20px;
+    display: none;
+}
+
+.more-service {
+    display: none;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.span-one-fif {
+    flex-basis: calc(20% - 20px);  
+    max-width: calc(20% - 20px);
+}
+
+.card {
+    border-radius: 6px;
+    padding: 16px;
+    box-shadow: 0 0 8px #00000029;
+    background-color: #fff;
+    max-height: 280px;
+    min-height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-caption {
+    display: flex;
+}
+
+.card-caption-name {
+    font-weight: bold;
+}
+
+.card-desc {
+    margin-top: 6px;
+}
+
+.card-desc-item {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    gap: 8px;
+    line-height: 18px;
+}
+
+.card-desc-item-icon {
+    min-width: 10px;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+
+.card-desc-item-text {
+    text-align: left;
+    /* white-space: nowrap; 
+    overflow: hidden;    
+    text-overflow: ellipsis; */
+}
+
+.card-detail {
+    margin-bottom: 10px;
+}
+
+.card-price {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.card-action {
+    margin-top: auto;
+
+}
+
+.card-price .card-price-unit {
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 16px;
+}
+
+/* footer start */
+
+.footer-section {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+}
+
+.footer_background {
+    position: absolute;
+    background-image: url(../img/world-map.png);
+    background-size: contain;
+    background-position: top right 30px;
+    background-repeat: no-repeat;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+
+.text-form {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.15;
+    margin-bottom: 4px;
+}
+
+.contact-description {
+    font-size: 18px;
+    margin-bottom: 38px;
+    line-height: 1.3;
+    text-align: center;
+    font-weight: bold;
+}
+
+.registration-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 30px 35px 35px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.form-header h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.15;
+}
+
+.blue-text {
+    color: #007bff;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-row label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.form-row input, .form-row select {
+    padding: 3px 8px;
+    height: 42px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.require-mark {
+    color: red;
+    font-weight: bold;
+}
+
+.form-footer {
+    text-align: center;
+}
+
+.form-footer p {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.btn-submit {
+    background-color: #4262f0;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    opacity: 0.8;
+}
+
+/* media querry */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+
+    .package-product, .more-service {
+        flex-direction: column;
+    }
+
+    .more-service {
+        margin-top: 46px;
+    }
+
+    .span-one-fif {
+        flex-basis: 100%;  
+        max-width: 100%;
+        /* min-height: 200px; */
+    }
+
+    
+    .btn-medium {
+        font-size: 1rem;
+        padding: 10px 22px;
+    }
+
+    .text-form {
+        font-size: 20px;
+    }
+
+    .contact-description {
+        font-size: 16px;
+        margin-bottom: 25px;
+        
+    }
+
+    .form-header h2 {
+        font-size: 1.3em;
+    }
+
+    .form-row label {
+        font-size: 14px;
+    }
+
+    .form-row input, .form-row select {
+        height: 38px;
+        font-size: 14px;
+    }
+
+    .form-footer p {
+        font-size: 0.8em;
+    }
+
+    .btn-submit {
+        font-size: 15px;
+        padding: 8px 16px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .contact-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+    .col-md-12 {
+        width: 100%;
+
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
