@@ -57,7 +57,7 @@
                 <button onclick="showContent('product-package')" class="cta-button-gradient btn-small btn-outline">Product Package</button>
                 <button onclick="showContent('more-service')" class="cta-button-gradient btn-small">More Services</button>
             </div>
-            <div class="grid-row">
+            <div class="grid-row grid-row-card">
                 <div id="package-product" class="package-product">
                     <div class="grid-column card span-one-fif mb3 reveal-on-scroll is-revealing">
                         <!-- <img class="illustration--small mb1" src="./img/assign.svg" alt="Assign to others">
@@ -83,6 +83,9 @@
                                     <div class="fa-solid fa-check"></div>
                                     <div class="card-desc-item-text">100 lượt xử lý hóa đơn</div>
                                 </div>
+                            </div>
+                            <div class="card-img">
+                                <img class="logo mb1 reveal-on-scroll is-revealing" src="./img/BANNER_LAND.jpg" alt="img-package">
                             </div>
                         </div>
     
@@ -529,18 +532,23 @@
                                 xác, <span class="nowrap">An toàn
                             </span></div>
                             <div class="image">
-                                <img decoding="async" width="480px" height="467px" src="https://amis.misa.vn/sites/amis/images/pages/new-amis-ke-toan/img-banner-register.png" alt="banner dang ky" class="lazyloaded" data-ll-status="loaded"><noscript><img decoding="async" width="480px" height="467px" src="/sites/amis/images/pages/new-amis-ke-toan/img-banner-register.png" alt="banner dang ky"></noscript>
+                                <img decoding="async" width="480px" height="467px" src="https://amis.misa.vn/sites/amis/images/pages/new-amis-ke-toan/img-banner-register.png" alt="banner dang ky" class="lazyloaded reveal-on-scroll is-revealing" data-ll-status="loaded"><noscript><img decoding="async" width="480px" height="467px" src="/sites/amis/images/pages/new-amis-ke-toan/img-banner-register.png" alt="banner dang ky"></noscript>
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <div class="registration-form">
+                            <div class="registration-form reveal-on-scroll is-revealing">
                                 <div class="form-header">
                                     <h2>Liên hệ với chúng tôi <br> <span class="blue-text">ERANIN</span></h2>
                                 </div>
-                                <form action="/submit-form" method="POST">
+                                <form action="/submit-form" method="POST" autocomplete="off">
                                     <div class="form-row">
                                         <label for="firstName">Họ và tên <span class="require-mark">*</span></label>
                                         <input type="text" id="firstName" name="firstName" placeholder="Họ và tên *" required>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <label for="phoneNumber">Số điện thoại <span class="require-mark">*</span></label>
+                                        <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Số điện thoại">
                                     </div>
                                                   
                                     <div class="form-row">
@@ -548,10 +556,7 @@
                                         <input type="email" id="email" name="email" placeholder="Email *" required>
                                     </div>
                             
-                                    <div class="form-row">
-                                        <label for="phoneNumber">Số điện thoại <span class="require-mark">*</span></label>
-                                        <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Số điện thoại">
-                                    </div>
+                                    
                                     <div class="form-row">
                                         <label for="content">Nội dung <span class="require-mark">*</span></label>
                                         <input type="tel" id="content" name="content" placeholder="Nội dung liên hệ" required>
@@ -574,30 +579,95 @@
     </main>
 
     <!-- Footer -->
-    <footer class="pt1 pb3 align--center-on-mobile footer-section">
+    <footer class="align--center-on-mobile footer-section">
         <div class="container">
-            <div class="footer_background">
-                <div class="grid-row">
-                    <div class="grid-column mt2 span-half">
-                        <!-- <div class="mb1">
-                            <span>
-                                <a href="https://www.apple.com/ios/app-store/" class="link"><img class="download" src="./img/ios.png" alt="Download on the App Store"></a>
-                            </span>
-                            <span>
-                                <a href="https://play.google.com/store" class="link"><img class="download" src="./img/googleplay.png" alt="Download on Google Play"></a>
-                            </span>
-                        </div> -->
-                        <p class="small">Design by <a href="https://www.eranin.com" class="link link--text">Eranin.com</a></p>
+            <div class="grid-row">
+                <div class="grid-column mt2 footer-wrap-logo">
+                    <div>
+                        <a class="logo" href="/">
+                            <img src="https://api.eranin.com/Files/ed2da895-417a-4b19-95b4-2ed8b79892e6/Webconfig/logo-logo 3.png" alt="Công ty Công nghệ Phần mềm Eranin" style="height:50px;margin-right:10px">
+                        </a>
                     </div>
-                    <div class="grid-column mt2 span-half align--right align--center-on-mobile">
-                        <ul class="no-bullets list--inline">
-                            <li class="mr1"><a href="" class="link"><img class="icon" src="./img/youtube.svg" alt="YouTube"></a></li>
-                            <li><a href="" class="link"><img class="icon" src="./img/facebook.svg" alt="Facebook"></a></li>
-                        </ul>
+                    <div>
+                        <h5 class="company">Công ty Công nghệ Phần mềm Eranin</h5>
+                    </div>
+
+                </div>
+
+                <div class="line"></div>
+                <div class="row row-footer info">
+                    <div class="col-12 col-lg-6 col-sm-6 footer-info-text">
+                        <div>
+                            <label>Công ty Công nghệ Phần mềm Eranin:</label>
+                             1077/31A đường TL43, Kp2, Phường Bình Chiểu, Thành phố Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam
+                        </div>
+                        <div class="email">
+                            <label>Email:</label>
+                            <a href="mailto:support@eranin.com">
+                                support@eranin.com
+                            </a>
+                        </div>
+                        <div class="phone">
+                            <label>Phone:</label>
+                            <a href="mailto:0963935920">
+                                0963935920
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-sm-6 footer-info-policy">
+                        <div class="row row-policy">
+                            <div class="col">
+                                <div class="policy">
+                                    <span class="policy-name" title="Chính sách">CHÍNH SÁCH</span class="policy">
+                                    <ul class="policy-list">
+                                        <li>
+                                            <a href="https://eranin.com/Chinh-Sach-Bao-Mat" title="Chính Sách Bảo Mật" class="footer-item-hover">
+                                                Chính Sách Bảo Mật
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://eranin.com/Dieu-Khoan-Su-Dung" title="Điều Khoản Sử Dụng" class="footer-item-hover">
+                                                Điều Khoản Sử Dụng
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <ul class="no-bullets list--inline footer-icon">
+                                    <li class="mr1">
+                                        <a href="" class="link footer-item-hover">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="link footer-item-hover">
+                                            <i class="fa-brands fa-youtube"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <!-- <div class="grid-column mt2 span-half align--right align--center-on-mobile">
+                           
+                        </div> -->
+                    </div>
+                </div>
+            <div class="line"></div>
+            <div class="copyright_section">
+                <div class="container text-center">
+                    <div class="copyright_text">
+                        Ⓒ Bản quyền 2023 thuộc về
+                        <a href="/">Công ty Công nghệ Phần mềm Eranin</a> <br>
+                        Mã số doanh nghiệp: 0317897396 do Cục cảnh sát QLHC về TTXH
+                            cấp ngày 22/06/2023
                     </div>
                 </div>
             </div>
-            
+                
+            </div>
         </div>
     </footer>
 
