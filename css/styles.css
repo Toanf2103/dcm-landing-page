@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;    
+}
+
 .focus h2 {
     font-size: 32px; 
 }
@@ -273,13 +277,17 @@
     margin-bottom: 5px;
 }
 
-.form-row input, .form-row select {
+.form-row input, .form-row select, .form-row textarea {
     padding: 3px 8px;
     height: 42px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
     width: 100%;
+}
+
+.form-row textarea {
+    height: 84px;
 }
 
 .require-mark {
@@ -421,10 +429,8 @@
     list-style: none;
 }
 
-a {
-    text-decoration: none;
+.policy-list a {
     color: #fff;
-    
 }
 
 .footer-icon {
@@ -451,6 +457,10 @@ a {
     font-size: 1rem;
     color: #fff;
     font-weight: 400;
+}
+
+.copyright_text a {
+    color: #fff;
 }
 
 .copyright_section {
